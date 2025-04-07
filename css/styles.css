@@ -196,3 +196,16 @@ h2 {
 .logo-link:focus {
     color: #404BBF;
 }
+
+.text-footer {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    
+    /* line-height: 24px; */
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+
+    background: #2e2f42;
+}
