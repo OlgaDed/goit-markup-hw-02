@@ -25,7 +25,10 @@ ul {
     margin: 0;
 }
 
-h1, h2, h3, p {
+h1,
+h2,
+h3,
+p {
     margin: 0;
 }
 
@@ -40,12 +43,12 @@ h1, h2, h3, p {
 
 /* Навігація */
 .nav-link {
-    font-size: 16px;    
+    font-size: 16px;
 }
 
 /* Контакти */
 .contact-link {
-    font-size: 16px;    
+    font-size: 16px;
 }
 
 /* Секція-герой */
@@ -54,7 +57,7 @@ h1, h2, h3, p {
 }
 
 .hero-title {
-    font-weight: 700;   
+    font-weight: 700;
 }
 
 /* Кнопка сайту */
@@ -83,12 +86,12 @@ h1, h2, h3, p {
 
 /* Секція Features */
 .features-text {
-    font-size: 16px;    
+    font-size: 16px;
 }
 
 /* Секція Our Team */
 .team-title {
-   text-align: center;
+    text-align: center;
 }
 
 .team-text {
