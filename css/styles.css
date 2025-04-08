@@ -140,7 +140,7 @@ h2 {
 }
 
 /*Our Team*/
-h2 {
+.section-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 111%; /* line-height: 40px; */
@@ -167,22 +167,7 @@ h2 {
     color: #434455;
 }
 
-/*Our Portfolio*/
-.section-portfolio {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 120%; /* line-height: 24px; */
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.text-portfolio {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 150%; /* line-height: 24px; */
-    letter-spacing: 0.02em;
-    color: #434455;
-}
+/*Our Portfolio - перевикористані стилі для h2 з Our Team, для h3 та p з Features - матеріали програми*/
 
 /*футер сторінки*/
 
