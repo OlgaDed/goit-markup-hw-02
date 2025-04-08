@@ -22,23 +22,68 @@ body {
 }
 
 /* Хедер сторінки */
-.logo-dark {
+/* Логотип */
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.logo-accent {
     color: #2e2f42;
 }
 
-.logo-light {
-    color: #f4f4fd;
+/* Навігація */
+.nav-list {
+    display: flex;
+    gap: 40px;
 }
 
-/* Навігація */
 .nav-link {
+    font-weight: 500;
     font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    padding: 24px 0;
+    display: block;
+}
+
+.nav-link:hover, .nav-link:focus, .nav-link.current {
+    color: #404bbf;
 }
 
 /* Контакти */
-.contact-link {
-    font-size: 16px;
+.address {
+    font-style: normal;
 }
+
+.address-list {
+    display: flex;
+    gap: 40px;
+}
+
+.address-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.address-link:hover, .address-link:focus {
+    color: #404bbf;
+}
+
+
+
+
+
+
+
 
 /* Секція-герой */
 .hero {
