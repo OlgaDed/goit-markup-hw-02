@@ -14,13 +14,14 @@
     font-variation-settings: "wdth" 100;
 }
 
-/*тіло сторінки*/
+/* Загальні стилі */
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #fff;
 }
 
+/* Скидання стилів */
 a {
     text-decoration: none;
 }
@@ -28,155 +29,184 @@ a {
 ul {
     list-style-type: none;
     padding-left: 0;
+    margin: 0;
 }
 
-/*Хедер сторінки*/
+h1, h2, h3, p {
+    margin: 0;
+}
+
+/* Хедер сторінки */
 .logo-link {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
-    font-size: 18px;  
-    line-height: 1.16667; /* line-height: 21px; */
+    font-size: 18px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    text-decoration: none;
-}
-
-.logo-link:hover, .logo-link:focus {
-    color: #404bbf;
-}
-
-/* "Web" — кольорова частина логотипу */
-.logo-accent {
     color: #4d5ae5;
 }
 
-/* "Studio" — основний колір */
-.logo-regular {
+.logo-dark {
     color: #2e2f42;
 }
 
-/*навігація*/
+.logo-light {
+    color: #f4f4fd;
+}
+
+/* Навігація */
 .nav-link {
     font-weight: 500;
-    font-size: 16px;     
-    line-height: 1.5; /* line-height: 24px; */
+    font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    text-decoration: none;
 }
 
-.nav-link:hover, .nav-link:focus {
+.nav-link:hover,
+.nav-link:focus {
     color: #404bbf;
 }
 
-/*контакти*/
-
-address {
+/* Контакти */
+.contacts {
     font-style: normal;
 }
 
-.mail-link, .tel-link {
+.contact-link {
     font-size: 16px;
-    line-height: 1.5; /* line-height: 24px; */
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    text-decoration: none;
 }
 
-.mail-link:hover, .tel-link:focus, .tel-link:hover,
-.mail-link:focus {
+.contact-link:hover,
+.contact-link:focus {
     color: #404bbf;
 }
 
-/*заголовок сайту*/
-/* секція-герой */
+/* Секція-герой */
 .hero {
-    background: #2e2f42;
+    background-color: #2e2f42;
     text-align: center;
 }
 
-/* заголовок */
-.hero h1 {
+.hero-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 107%;
+    line-height: 1.07;
     letter-spacing: 0.02em;
-    color: #fff;
+    color: #ffffff;
+    text-align: center;
 }
 
-/*кнопка сайту*/
+/* Кнопка сайту */
 .order-btn {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    line-height: 150%; /* або 1.5 */
+    line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #fff;
+    color: #ffffff;
     background-color: #4d5ae5;
-    border: none;
-    border-radius: 4px;
-    padding: 16px 32px;
     cursor: pointer;
 }
 
-.order-btn:hover, .order-btn:focus{
-    color: #404bbf;
+.order-btn:hover,
+.order-btn:focus {
+    background-color: #404bbf;
 }
 
-/* Features - матеріали програми */
-h2 {
-    visibility: hidden;
+/* Візуально прихований заголовок */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
-.features {
-    font-size: 20px;
-    color: inherit;
-}
-
-.text-featurest {
-    font-size: 16px;
-    line-height: 1.5;
-    color: #434455;
-}
-
-/*Our Team*/
+/* Заголовок секцій */
 .section-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 111%; /* line-height: 40px; */
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
     color: #2e2f42;
 }
 
-.section-team {
+/* Секція Features */
+.features-title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 120%; /* line-height: 24px; */
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.features-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* Секція Our Team */
+.team-section {
+    background-color: #f4f4fd;
+}
+
+.team-item {
+    background-color: #ffffff;
+}
+
+.team-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
 }
 
-.text-team {
-    font-weight: 400;
+.team-text {
     font-size: 16px;
-    line-height: 150%; /* line-height: 24px; */
+    line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
 }
 
-/*Our Portfolio - перевикористані стилі для h2 з Our Team, для h3 та p з Features - матеріали програми*/
-
-/*футер сторінки*/
-footer {
-    background: #2e2f42;
+/* Секція Portfolio */
+.portfolio-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
-.text-footer {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
+.portfolio-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* Футер сторінки */
+.page-footer {
+    background-color: #2e2f42;
+}
+
+.footer-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
