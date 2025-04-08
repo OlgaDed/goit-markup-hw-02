@@ -64,8 +64,7 @@ h1, h2, h3, p {
     color: #2e2f42;
 }
 
-.nav-link:hover,
-.nav-link:focus {
+.nav-link:hover, .nav-link:focus {
     color: #404bbf;
 }
 
@@ -81,8 +80,7 @@ h1, h2, h3, p {
     color: #434455;
 }
 
-.contact-link:hover,
-.contact-link:focus {
+.contact-link:hover, .contact-link:focus {
     color: #404bbf;
 }
 
@@ -113,8 +111,7 @@ h1, h2, h3, p {
     cursor: pointer;
 }
 
-.order-btn:hover,
-.order-btn:focus {
+.order-btn:hover, .order-btn:focus {
     background-color: #404bbf;
 }
 
