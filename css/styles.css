@@ -14,13 +14,6 @@
     font-variation-settings: "wdth" 100;
 }
 
-/* Загальні стилі */
-body {
-    font-family: "Roboto", sans-serif;
-    color: #434455;
-    background-color: #fff;
-}
-
 /* Скидання стилів */
 a {
     text-decoration: none;
