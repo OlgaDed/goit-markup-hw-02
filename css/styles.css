@@ -18,7 +18,7 @@
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
-    background-color: #ffffff;
+    background-color: #FFFFFF;
 }
 
 /* Хедер сторінки */
@@ -44,19 +44,12 @@ body {
 }
 
 /* Навігація */
-.nav-list {
-    display: flex;
-    gap: 40px;
-}
-
 .nav-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding: 24px 0;
-    display: block;
 }
 
 .nav-link:hover, .nav-link:focus, .nav-link.current {
@@ -66,11 +59,6 @@ body {
 /* Контакти */
 .address {
     font-style: normal;
-}
-
-.address-list {
-    display: flex;
-    gap: 40px;
 }
 
 .address-link {
@@ -95,7 +83,6 @@ body {
 
 /* Заголовок */
 .hero-title {
-    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -104,7 +91,6 @@ body {
 
 /* Кнопка */
 .order-button {
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -121,16 +107,12 @@ body {
 /*Features - матеріали програми*/
 /* Прихований заголовок */
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
     overflow: hidden;
     clip: rect(0 0 0 0);
 }
 
 /* Заголовки h3 */
 .features-title {
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2; /* 120% */
@@ -140,7 +122,6 @@ body {
 
 /* Текст параграфів */
 .features-text {
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5; /* 150% */
@@ -156,7 +137,6 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    margin-bottom: 72px;
 }
 
 /* Ім'я працівника */
@@ -180,8 +160,6 @@ body {
 
 /* Базова структура */
 .team-list {
-    display: flex;
-    gap: 24px;
     justify-content: center;
 }
 
@@ -193,19 +171,6 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    margin-bottom: 72px;
-}
-
-/* Сітка */
-.portfolio-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-}
-
-/* Картки */
-.portfolio-item {
-    width: calc((100% - 48px) / 3);
 }
 
 /* Типографіка */
@@ -231,5 +196,4 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    max-width: 264px;
 }
