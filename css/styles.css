@@ -23,7 +23,7 @@ body {
 
 /* Хедер сторінки */
 /* Логотип */
-.logo {
+.header .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -36,11 +36,6 @@ body {
 /* Стилі для "Studio" хедера */
 .header .logo-studio {
     color: #2e2f42;
-}
-
-/* Стилі для "Studio" футера */
-.footer .logo-studio {
-    color: #f4f4fd;
 }
 
 /* Навігація */
@@ -197,10 +192,29 @@ body {
 }
 
 /* Футер сторінки */
-.footer-text {
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+.footer {
+    background-color: #2e2f42;
+}
+
+/* Логотип */
+.footer .logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+/* Стилі для "Studio" футера */
+.footer .logo-studio {
     color: #f4f4fd;
+}
+
+/* Параграф футера*/
+.footer-text {
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;    
 }
